@@ -6,3 +6,5 @@ catalog.xml
 .gitup.dat
 *.sw[a-z]
 .DS_Store
+composer.lock
+vendor

@@ -1,0 +1,29 @@
+{
+    "name": "befool-inc/system_daemon",
+    "description": "Discontinued. All the boilerplate required to daemonize php http://pear.php.net/package/System_Daemon",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords":["pear"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "KIUCHI Satoshinosuke",
+            "email": "scholar@hayabusa-lab.jp",
+            "homepage": "https://github.com/8823-scholar",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["."]
+    },
+    "require": {
+        "php": ">=5.1.2",
+        "pear-pear.php.net/Log": "*"
+    },
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net/"
+        }
+    ]
+}
