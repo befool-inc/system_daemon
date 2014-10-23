@@ -351,7 +351,7 @@ class System_Daemon
         ),
         'doTicks' => array(
             'type' => 'boolean',
-            'default' => true,
+            'default' => false,
             'punch' => 'Use ticks for daemon signalling (PHP >= 5.3)',
             'detail' => 'If you don\'t set this option, signals will not work unless
                 you use the iterate method, or call pcntl_signal_dispatch()
@@ -1406,9 +1406,11 @@ class System_Daemon
         // tick use required as of PHP 4.3.0
         // deprecated as of 5.3
         // See http://www.php.net/manual/en/function.pcntl-signal.php
+        /*
         if (self::opt('doTicks') === true) {
             declare(ticks = 1);
         }
+        */
 
         // Setup signal handlers
         // Handlers for individual signals can be overrulled with
