@@ -18,12 +18,6 @@
     },
     "require": {
         "php": ">=5.1.2",
-        "pear-pear.php.net/Log": "*"
-    },
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "http://pear.php.net/"
-        }
-    ]
+        "pear/log": "*"
+    }
 }
